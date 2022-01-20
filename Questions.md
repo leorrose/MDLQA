@@ -291,3 +291,185 @@
 - [ ] False
 
 ***Explanation:*** - The larger the training set the difference between a biased estimator and a unbiased estimator decreases.
+
+### ***Q44. True or False: the more we increase the number of ANN neurons, the greater the chance of overfitting***
+
+- [x] True
+- [ ] False
+
+***Explanation:*** - The more neurons we have the more complex model with too many parameters we get. and this can lead to overfitting to the training set.
+
+### ***Q45. True or False: if a split in a decision tree decreases the entropy then the error will decrease.***
+
+- [ ] True
+- [x] False
+
+***Explanation:*** - For example we have 0 and 1 classes. If we have a node with (40,80) classes and we split into two nodes (28,42) and (12,38). The entropy will decrease from 0.918 to 0.897 but the the misclassification error will increase from 0.5 to 0.64.
+
+### ***Q46. True or False: the output of neuron in NN is minus 0.5 then the activation is certainly not sigmoid.***
+
+- [x] True
+- [ ] False
+
+***Explanation:*** - Sigmoid activation output is between 0 to 1.
+
+### ***Q47. True or False: in a neural network, when SGD is used in a single epoch, it passes through random sections of data***
+
+- [ ] True
+- [x] False
+
+***Explanation:*** - In SGD an epoch would be the full presentation of the training data, and then there would be N weight updates per epoch (if there are N data examples in the training set).
+
+### ***Q48. True or False: if we increase the max depth in Random Forest then the chance of overfitting will increase***
+
+- [x] True
+- [ ] False
+
+***Explanation:*** - Increasing depth decreases bias at the expense of increasing variance. Random forests can combat this increase in variance by aggregating over multiple trees, but are not immune to overfitting.
+
+### ***Q49. True or False: one hot encoding converts a categorical variable to a binary variables***
+
+- [x] True
+- [ ] False
+
+***Explanation:*** - A one hot encoding is a representation of categorical variables as binary vectors.
+
+### ***Q50. True or False: LeNet's CNN is usually more accurate than a standard deep network for digit recognition.***
+
+- [ ] True
+- [ ] False
+
+***Explanation:*** - 
+
+### ***Q51. True or False: the Tanh activation function does not suffer from the Vanishing Gradient problem.***
+
+- [ ] True
+- [x] False
+
+***Explanation:*** - Tanh is a sigmoidal activation function that suffers from vanishing gradient problem.
+
+### ***Q52. True or False: in a CNN, the number of weights to learn in the Max Polling layer depends on the size of the image Given a color image***
+
+- [ ] True
+- [x] False
+
+***Explanation:*** - There are no trainable parameters in a max-pooling layer. In the forward pass, it pass maximum value within each rectangle to the next layer. In the backward pass, it propagate error in the next layer to the place where the max value is taken, because that's where the error comes from.
+
+### ***Q53. Given a color image (in RGB format) in size 8 × 8 we apply 5 2 × 2 filters with pad = 0 and stride = 1. what is the Number of parameters to be trained?***
+
+***Explanation:*** - (2\*2\*3 + 1) * 5 = 65.
+
+### ***Q54. Given a color image (in RGB format) in size 8 × 8 we apply 5 2 × 2 filters with pad = 0 and stride = 1. what is the output size obtained?***
+
+***Explanation:*** - output shape is (8+0-2)/1 + 1  = 7 so 7*7*5 (7,7,5).
+
+### ***Q55. Running Max Polling on output shape (7,7,5) with a filter of size 2 × 2 with stride = 1 what is the size of the new output?***
+
+***Explanation:*** - output shape is (7+0-2)/1 + 1  = 6 so 6*6*5 (6,6,5).
+
+### ***Q56. True or False: for every x less than 0 the result of the RELU function will return a value smaller than sigmoid***
+
+- [ ] True
+- [x] False
+
+***Explanation:*** - if x<0 in RELU then the output is 0. sigmoid output for a very large negative value is zero.
+
+### ***Q57. True or False: the use of the chain rule is designed to allow the gradient to "roll back" even in deep networks.***
+
+- [x] True
+- [ ] False
+
+***Explanation:*** - The chain rule allows us to find the derivative of composite functions. It is computed extensively by the back propagation algorithm.
+
+### ***Q58. True or False: at a tree node there are 80 instances with class 1 and 20 with class 0. then entropy = (20/100) log log(20/100) + (80/100) log log(80/100)***
+
+- [ ] True
+- [x] False
+
+***Explanation:*** - entropy = -(20/100) log(20/100) + -(80/100) log(80/100)
+
+### ***Q59. True or False: TanH result has the same mark (minus/plus) as the input mark (after scheme)***
+
+- [x] True
+- [ ] False
+
+***Explanation:*** - TanH maps negative inputs to negative and positive to positive.
+
+### ***Q60. True or False: in a decision tree with binary splits the number of leaves will not exceed the number of observations in the train.***
+
+- [x] True
+- [ ] False
+
+***Explanation:*** - 
+
+### ***Q61. True or False: in the decision tree pruning the entropy value before pruning is always greater than the entropy value after pruning***
+
+- [ ] True
+- [x] False
+
+***Explanation:*** - 
+
+--- 2018 --
+
+### ***Q61. True or False: ***
+
+- [ ] True
+- [ ] False
+
+***Explanation:*** - 
+
+### ***Q61. True or False: ***
+
+- [ ] True
+- [ ] False
+
+***Explanation:*** - 
+
+### ***Q61. True or False: ***
+
+- [ ] True
+- [ ] False
+
+***Explanation:*** - 
+
+### ***Q61. True or False: ***
+
+- [ ] True
+- [ ] False
+
+***Explanation:*** - 
+
+### ***Q61. True or False: ***
+
+- [ ] True
+- [ ] False
+
+***Explanation:*** - 
+
+### ***Q61. True or False: ***
+
+- [ ] True
+- [ ] False
+
+***Explanation:*** - 
+
+### ***Q61. True or False: ***
+
+- [ ] True
+- [ ] False
+
+***Explanation:*** - 
+
+### ***Q61. True or False: ***
+
+- [ ] True
+- [ ] False
+
+***Explanation:*** - 
+
+### ***Q61. True or False: ***
+
+- [ ] True
+- [ ] False
+
+***Explanation:*** - 
