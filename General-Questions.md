@@ -19,6 +19,8 @@
 - [ ] True
 - [x] False
 
+***Explanation*** - Newton's method has a quadratic convergence but it depends on the step size and starting point so it will not always converge in exact one iteration.
+
 ### ***Q4. True or False: existence of KKT conditions for a non-quadratic problem, represents the necessary condition for a global optimal solution.***
 
 - [ ] True
@@ -32,8 +34,6 @@
 - [ ] False
 
 ***Explanation*** - 
-
-***Explanation*** - Newton's method has a quadratic convergence but it depends on the step size and starting point so it will not always converge in exact one iteration.
 
 ### ***Q6. True or False: Trying to solve a multiclass classification problem where clases are {a,b,c,d} using ECOC with 3 models. model 1 is intended to distinguish between the group {a,b} and {c,d}. model 2 is intended to distinguish between the group{a,c} and {b,d}. model 3 is intended to distinguish between the group {a,d} and {b,c}. If the models classified a new observation to groups 1,0,1 respectively then the observation should be assigned to group c.***
 
