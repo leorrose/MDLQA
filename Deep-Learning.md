@@ -19,7 +19,7 @@
 - [x] True
 - [ ] False
 
-***Explanation*** - 
+***Explanation*** - Universal Approximation Theorem.
 
 ### ***Q4. True or False: in the Associative Auto neural network, the original information can always be restored without errors.***
 
