@@ -33,7 +33,7 @@
 - [X] True
 - [ ] False
 
-***Explanation:*** - SVMs (linear or otherwise) inherently do binary classification. However, there are various procedures for extending them to multiclass problems.
+***Explanation:*** - SVMs (linear or otherwise) inherently do binary classification. However, there are various procedures for extending them to multi-class problems.
 
 ### ***Q6. True or False: the original AdaBoost algorithm is intended for solving binary problems only.***
 
@@ -82,7 +82,7 @@
 - [ ] True
 - [x] False
 
-***Explanation:*** - In ensemble we use a lot of algorithms and combine them but in MoE we use a small number of models where each model specializes in some aspect.
+***Explanation:*** - In ensemble we use a lot of algorithms and combine them but in MoE we use a small number of models where each model specializes in some aspect. the models in MoE can be from the same basic algorithm.
 
 ### ***Q13. True or False: each multilayer neural network can be described using a three-layer network.***
 
@@ -129,7 +129,7 @@
 ### ***Q19. True or False: increasing the number of neurons in the hidden layer of a three-layer neural network will usually increase accuracy on the train group.***
 
 - [x] True
-- [] False
+- [ ] False
 
 ***Explanation:*** - The more neurons in the hidden layer the more we can fit the network to our data and lead to overfitting  which will increase train accuracy.
 
@@ -159,7 +159,8 @@
 - [x] True
 - [ ] False
 
-***Explanation:*** - TODO
+***Explanation:*** - In Bagging each classifier is built on a sample of the data or features but in AdaBoost each classifier is trained on the full weighted data and features so the first classifier in AdaBoost has more data and features to learn on so its accuracy should be greater than the first classifier build with random forest.
+
 
 ### ***Q24. The ML team received a file with new training data. The task is to create a new classification model based on this data. The input features are nominal only. Also the target attribute is binary. The team is debating between five possible classifiers: KNN, ID3, Naive Bayes, OneR, C4.5. To select the best classifier, it was decided to linearly weight the output of these classifiers (The probabilities for each CLASS). Which Ensemble method is suitable for this case?***
 
@@ -409,65 +410,84 @@
 
 ***Explanation:*** - 
 
---- 2018 --
-
-### ***Q61. True or False: ***
+### ***Q62. True or False: given two decision trees studied on the same database. In the first tree 20 leaves and in the second tree 200 leaves. The bias component of the tree with 200 leaves is larger than the bias component in a tree of 20 leaves.***
 
 - [ ] True
 - [ ] False
 
 ***Explanation:*** - 
 
-### ***Q61. True or False: ***
+### ***Q63. True or False: Boosting is designed to reduce the bias component in models with small variance.***
 
 - [ ] True
+- [x] False
+
+***Explanation:*** - Boosting is a meta-learning algorithm that reduces both bias and variance.
+
+### ***Q64. True or False: by the “no free lunch” (NFL) theorem, no variation of the Gradient algorithm (e.g., Adam, SGD, AdaGrad etc) is always better than all the other variations***
+
+- [x] True
 - [ ] False
 
-***Explanation:*** - 
+***Explanation:*** - The “no free lunch” (NFL) theorem implies that no single machine learning algorithm is universally the best-performing algorithm for all problems.
 
-### ***Q61. True or False: ***
+### ***Q65. True or False: the drop out in a neural network allows for an ensemble approximation of neural networks Without the need to train each network for multiple iterations.***
+
+- [x] True
+- [ ] False
+
+***Explanation:*** - Dropout in a neural network can be considered as an ensemble technique, where multiple sub-networks are trained together by “dropping” out certain connections between neurons.
+
+### ***Q61. True or False: both the bagging algorithm and the random forest algorithm can be executed in parallel without any change in the code, so each classifier is built in a different processor / computer***
+
+- [x] True
+- [ ] False
+
+***Explanation:*** - Bagging is a parallel method that fits different, considered learners independently from each other, making it possible to train them simultaneously. Random forest is a bagging algorithm.
+
+### ***Q61. True or False: increasing the number of neurons in the middle layer of a three-layer neural network will usually increase the variance error component.***
+
+- [x] True
+- [ ] False
+
+***Explanation:*** - the more neurons in the hidden layer the more we can fit the network to our data and lead to higher variance. In general, more complicated models will result in larger variance.
+
+### ***Q61. True or False: the AdaBoost algorithm reduces both the bias component and the variance component.***
+
+- [x] True
+- [ ] False
+
+***Explanation:*** - Boosting is a meta-learning algorithm that reduces both bias and variance.
+
+### ***Q61. True or False: the bagging algorithm reduces both the bias component and the variance component.***
 
 - [ ] True
+- [x] False
+
+***Explanation:*** - Bagging reduces the variance without reducing the bias.
+
+### ***Q16. True or False: based on the "No Free Lunch" principle, no learning algorithm can be found that surpasses all the other algorithms in a every problem.***
+
+- [x] True
 - [ ] False
 
-***Explanation:*** - 
+***Explanation:*** - The “no free lunch” (NFL) theorem implies that no single machine learning algorithm is universally the best-performing algorithm for all problems.
 
-### ***Q61. True or False: ***
+### ***Q22. The goal is to classify image x to one of the two classes A,B. The the priori probabilities are P(A) = 0.4, P(B) = 0.6. The probability of obtaining the above x given A is 0.6 Whereas the probability of obtaining the above x given B is 0.5. The class that must be chosen to minimize the mistake expected value is B.***
+
+- [x] True
+- [ ] False
+
+***Explanation:*** - P(A|x) = P(A) \* P(x|A) = 0.24, P(B|x) = P(B) \* P(x|B) = 0.3.
+
+### ***Q5. True or False: theres in no extension that allows using SVM algorithm for solving multi-class problems.***
 
 - [ ] True
-- [ ] False
+- [x] False
 
-***Explanation:*** - 
+***Explanation:*** - SVMs (linear or otherwise) inherently do binary classification. However, there are various procedures for extending them to multi-class problems.
 
-### ***Q61. True or False: ***
-
-- [ ] True
-- [ ] False
-
-***Explanation:*** - 
-
-### ***Q61. True or False: ***
-
-- [ ] True
-- [ ] False
-
-***Explanation:*** - 
-
-### ***Q61. True or False: ***
-
-- [ ] True
-- [ ] False
-
-***Explanation:*** - 
-
-### ***Q61. True or False: ***
-
-- [ ] True
-- [ ] False
-
-***Explanation:*** - 
-
-### ***Q61. True or False: ***
+### ***Q5. True or False: increasing the size of the ensemble will always reduce the error on the test set.***
 
 - [ ] True
 - [ ] False
