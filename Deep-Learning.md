@@ -100,10 +100,10 @@
 
 ### ***Q15. True or False: LeNet's CNN is usually more accurate than a standard deep network for digit recognition.***
 
-- [ ] True
+- [x] True
 - [ ] False
 
-***Explanation*** - 
+***Explanation*** - A plain deep NN on the MNIST dataset can get 98.40% test accuracy, Using CNN gets to 99.25% test accuracy.
 
 ### ***Q16. True or False: the Tanh activation function does not suffer from the Vanishing Gradient problem.***
 
