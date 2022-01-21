@@ -34,7 +34,7 @@
 - [ ] True
 - [x] False
 
-***Explanation*** -
+***Explanation*** - In SVM we try to maximize the margin but minimze the classification error so if we remove some non-vectors support observations it can affect the classification error and change our model.
 
 ### ***6. True or False: theres in no extension that allows using SVM algorithm for solving multi-class problems.***
 
