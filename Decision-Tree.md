@@ -5,7 +5,7 @@
 - [ ] True
 - [x] False
 
-***Explanation*** - For example we have 0 and 1 classes. If we have a node with (40,80) classes and we split into two nodes (28,42) and (12,38). The entropy will decrease from 0.918 to 0.897 but the the misclassification error will increase from 0.5 to 0.64.
+***Explanation*** - For example we have 0 and 1 classes. If we have a node with (40,80) classes and we split into two nodes (28,42) and (12,38). The entropy will decrease from 0.918 to 0.897 but the the misclassification error will increase from 0.33 to 0.64.
 
 ### ***Q2. True or False: at a tree node there are 80 instances with class 1 and 20 with class 0. then entropy = (20/100) log log(20/100) + (80/100) log log(80/100)***
 
