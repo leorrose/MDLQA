@@ -133,8 +133,8 @@
 
 ### ***Q21. True or False: for every x less than 0 the result of the RELU function will return a value smaller than sigmoid***
 
-- [ ] True
-- [x] False
+- [x] True
+- [ ] False
 
 ***Explanation*** - If x<0 in RELU the output is 0 but for sigmoid the output is between (0,0.5] .
 
