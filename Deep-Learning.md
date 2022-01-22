@@ -136,7 +136,7 @@
 - [ ] True
 - [x] False
 
-***Explanation*** - if x<0 in RELU then the output is 0. sigmoid output for a very large negative value is zero.
+***Explanation*** - If x<0 in RELU the output is 0 but for sigmoid the output is between (0,0.5] .
 
 ### ***Q22. True or False: the use of the chain rule is designed to allow the gradient to "roll back" even in deep networks.***
 
