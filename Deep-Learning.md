@@ -125,7 +125,7 @@
 
 ### ***Q19. Given a color image (in RGB format) in size 8 × 8 we apply 5 2 × 2 filters with pad = 0 and stride = 1. what is the output size obtained?***
 
-***Explanation*** - output shape is (8+0-2)/1 + 1  = 7 so 7*7*5 (7,7,5).
+***Explanation*** - output shape is (8+0-2)/1 + 1  = 7 so 7\*7\*5 (7,7,5).
 
 ### ***Q20. Running Max Polling on output shape (7,7,5) with a filter of size 2 × 2 with stride = 1 what is the size of the new output?***
 
