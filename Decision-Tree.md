@@ -26,7 +26,7 @@
 - [ ] True
 - [x] False
 
-***Explanation*** - 
+***Explanation*** - As we grow a decision tree the entropy decreases, so if we prune it the entropy can increse meaning the decision tree before prunning always has a lower entopy.
 
 ### ***Q5. True or False: given two decision trees studied on the same database. In the first tree 20 leaves and in the second tree 200 leaves. The bias component of the tree with 200 leaves is larger than the bias component in a tree of 20 leaves.***
 
