@@ -91,3 +91,17 @@
 - [x] False
 
 ***Explanation*** - If this was true than we will just keep increasing the number of size of the ensemble until we get 0 error and we wouldn't need any other algorithm.
+
+### ***Q15. True or False: the AdaBoost algorithm reduces both the bias component and the variance component.***
+
+- [x] True
+- [ ] False
+
+***Explanation*** - Boosting is a meta-learning algorithm that reduces both bias and variance.
+
+### ***Q16. True or False: the bagging algorithm reduces both the bias component and the variance component.***
+
+- [ ] True
+- [x] False
+
+***Explanation*** - Bagging reduces the variance without reducing the bias.
