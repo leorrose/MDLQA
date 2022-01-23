@@ -172,17 +172,3 @@
 - [ ] False
 
 ***Explanation*** - The more neurons in the hidden layer the more we can fit the network to our data and lead to higher variance. In general, more complicated models will result in larger variance.
-
-### ***Q27. True or False: the AdaBoost algorithm reduces both the bias component and the variance component.***
-
-- [x] True
-- [ ] False
-
-***Explanation*** - Boosting is a meta-learning algorithm that reduces both bias and variance.
-
-### ***Q28. True or False: the bagging algorithm reduces both the bias component and the variance component.***
-
-- [ ] True
-- [x] False
-
-***Explanation*** - Bagging reduces the variance without reducing the bias.
